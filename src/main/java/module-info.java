@@ -1,4 +1,4 @@
-module com.example.parkuq {
+module co.edu.uniquindio.parkuq {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,6 @@ module com.example.parkuq {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.example.parkuq to javafx.fxml;
-    exports com.example.parkuq;
+    opens co.edu.uniquindio.parkuq to javafx.fxml;
+    exports co.edu.uniquindio.parkuq;
 }

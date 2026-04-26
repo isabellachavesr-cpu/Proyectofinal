@@ -14,6 +14,13 @@ public abstract class Usuario {
     protected String identificacion;
     protected TipoUsuario tipoUsuario;
 
+    /**
+     * Constructor de la clase Usuario
+     * @param nombre
+     * @param identificacion
+     * @param tipoUsuario
+     */
+
     public Usuario(String nombre, String identificacion, TipoUsuario tipoUsuario) {
         this.nombre = nombre;
         this.identificacion = identificacion;
@@ -21,13 +28,15 @@ public abstract class Usuario {
     }
 
     /**
-     * Retorna el porcentaje de descuento (0.0 – 1.0) que aplica a este usuario.
-     *
-     * @return descuento en formato decimal (e.g. 0.20 para 20%)
+     * Retorna el porcentaje de descuento
+     * @return
      */
     public abstract double obtenerDescuento();
 
-    // ---- Getters y Setters ----
+    /**
+     * get y set
+     * @return
+     */
 
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }

@@ -2,10 +2,8 @@ package co.edu.uniquindio.parkuq.model;
 
 import co.edu.uniquindio.parkuq.model.enums.TipoUsuario;
 
-/**
- * Usuario de tipo Estudiante de la Universidad del Quindío.
- * @author Equipo PARKUQ
- */
+//Clase Estudiante que extiende de la super clase Usuario
+
 public class Estudiante extends co.edu.uniquindio.parkuq.model.Usuario {
 
     public Estudiante(String nombre, String identificacion) {

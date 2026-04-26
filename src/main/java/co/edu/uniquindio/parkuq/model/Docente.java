@@ -2,6 +2,8 @@ package co.edu.uniquindio.parkuq.model;
 
 import co.edu.uniquindio.parkuq.model.enums.TipoUsuario;
 
+//Clase Docente que extiende de la super clase Usuario
+
 public class Docente extends Usuario {
     public Docente(String nombre, String identificacion){
         super(nombre, identificacion, TipoUsuario.DOCENTE);

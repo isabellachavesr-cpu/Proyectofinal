@@ -17,12 +17,27 @@ public abstract class Vehiculo {
         this. nombreConductor = nombreConductor;
         this. identificacionConductor = identificacionConductor;
         this. estado = EstadoVehiculo.DENTRO;
-
-
-
-
-
     }
+    public String getPlaca() {
+        return placa;
+    }
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+    public String getNombreConductor() {
+        return nombreConductor;
+    }
+    public void setNombreConductor(String nombreConductor) {
+        this.nombreConductor = nombreConductor;
+    }
+    public String getIdentificacionConductor() {
+        return identificacionConductor;
+    }
+    public void setIdentificacionConductor(String identificacionConductor) {
+        this.identificacionConductor = identificacionConductor;
+    }
+
+    public abstract double calcularTarifa(long horas, Tarifa tarifa);
 
 
 }

@@ -4,7 +4,6 @@ import co.edu.uniquindio.parkuq.model.enums.TipoUsuario;
 
 /**
  * Usuario de tipo Estudiante de la Universidad del Quindío.
- *
  * @author Equipo PARKUQ
  */
 public class Estudiante extends co.edu.uniquindio.parkuq.model.Usuario {
@@ -14,12 +13,13 @@ public class Estudiante extends co.edu.uniquindio.parkuq.model.Usuario {
     }
 
     /**
-     * {@inheritDoc}
-     *
-     * TODO [Juan David] – definir el descuento real para estudiantes.
+     *  Metodo para definir el descuento real para estudiantes
+     *  20% descuento para estudiantes
      */
+
+
     @Override
     public double obtenerDescuento() {
-        return 0.20; // 20% descuento para estudiantes
+        return 0.20;
     }
 }
